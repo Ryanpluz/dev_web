@@ -1,0 +1,69 @@
+body{
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(49, 101, 126));
+}
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: aliceblue;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 75%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 20px;
+    width: 20%;
+}
+.linha{
+    border-color: rgb(65, 65, 156);
+    border-radius: 5px;
+}
+.image_fora{
+    width: 700px;
+    height: 600px;
+}
+legend{
+    border: 1px solid rgb(65, 65, 156);
+    border-radius: 9px;
+    text-align: center;
+    background-color: rgb(65, 65, 156);
+}
+.enviar{
+    display: flex;
+    height: 40px;
+    width: 220px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, rgb(65, 65, 156), rgb(20, 147, 220));
+}
+
+.inputbox{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+.input_name, .input_pass, .input_email, .input_tell{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.label{
+    font-size: 15px;
+}
+
+.input_data{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.generos{
+    cursor: pointer;
+    font-size: 10px;
+}
+.input_data{
+ margin-top: 5px;
+}
